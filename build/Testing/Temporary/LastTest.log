@@ -1,0 +1,40 @@
+Start testing: May 16 09:18 MSK
+----------------------------------------------------------
+1/1 Testing: StreamTests
+1/1 Test: StreamTests
+Command: "/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/Lab3Tests"
+Directory: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build
+"StreamTests" start time: May 16 09:18 MSK
+Output:
+----------------------------------------------------------
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from StreamTest
+[ RUN      ] StreamTest.MapOnIntegers
+[       OK ] StreamTest.MapOnIntegers (0 ms)
+[ RUN      ] StreamTest.WhereFilter
+[       OK ] StreamTest.WhereFilter (0 ms)
+[ RUN      ] StreamTest.ReduceSum
+[       OK ] StreamTest.ReduceSum (0 ms)
+[ RUN      ] StreamTest.Subsequence
+[       OK ] StreamTest.Subsequence (0 ms)
+[ RUN      ] StreamTest.ContainsSubsequence
+[       OK ] StreamTest.ContainsSubsequence (0 ms)
+[ RUN      ] StreamTest.Merge
+[       OK ] StreamTest.Merge (0 ms)
+[ RUN      ] StreamTest.Split
+[       OK ] StreamTest.Split (0 ms)
+[----------] 7 tests from StreamTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"StreamTests" end time: May 16 09:18 MSK
+"StreamTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 16 09:18 MSK

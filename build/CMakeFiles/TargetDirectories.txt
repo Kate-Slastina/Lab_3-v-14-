@@ -1,0 +1,4 @@
+/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/Lab3Tests.dir
+/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/test.dir
+/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/edit_cache.dir
+/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/rebuild_cache.dir
