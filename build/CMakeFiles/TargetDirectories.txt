@@ -1,4 +1,9 @@
+/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/Lab3_GUI.dir
 /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/Lab3Tests.dir
 /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/test.dir
 /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/edit_cache.dir
 /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/rebuild_cache.dir
+/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/Lab3_GUI_autogen_timestamp_deps.dir
+/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/Lab3_GUI_autogen.dir
+/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/Lab3Tests_autogen_timestamp_deps.dir
+/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles/Lab3Tests_autogen.dir

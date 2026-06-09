@@ -1,31 +1,69 @@
-# CMakeLists.txt
-cmake_minimum_required(VERSION 3.16)
-project(Lab3_Stream LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.19)
+project(Lab3_Combined LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-set(BUILD_GMOCK OFF CACHE BOOL "" FORCE)
-set(INSTALL_GTEST OFF CACHE BOOL "" FORCE)
-find_package(GTest REQUIRED)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
+qt_standard_project_setup()
 
-set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
-set(CORE_DIR ${SRC_DIR}/core)
-
-add_library(core_lib INTERFACE)
-target_include_directories(core_lib INTERFACE
-    ${SRC_DIR}
-    ${CORE_DIR}
-    ${CORE_DIR}/Array
-    ${CORE_DIR}/List
+set(CORE_SRC
+    src/core/DynamicArray.tpp
+    src/core/ArraySequence.tpp
+    src/core/LinkedList.tpp
+    src/core/ListSequence.tpp
+    src/generators/RecurrentSequences.cpp
+    src/core/Complex.cpp
+    src/core/Student.cpp
+    src/core/Teacher.cpp
 )
 
-add_executable(Lab3Tests
-    tests/test_stream.cpp
+set(ELEMENTS_SRC
+    src/elements/Number.cpp
+    src/elements/StudentElement.cpp
+    src/elements/TeacherElement.cpp
 )
 
-target_link_libraries(Lab3Tests PRIVATE core_lib GTest::gtest GTest::gtest_main)
+qt_add_executable(Lab3_GUI
+    gui/main.cpp
+    gui/mainwindow.cpp
+    gui/mainwindow.h
+    gui/mainwindow.ui
+    ${CORE_SRC}
+    ${ELEMENTS_SRC}
+)
+
+target_include_directories(Lab3_GUI PRIVATE
+    src
+    src/core
+    src/core/Array
+    src/core/List
+    src/elements
+    src/generators
+    src/algorithms
+    src/exceptions
+)
+
+target_link_libraries(Lab3_GUI PRIVATE Qt::Core Qt::Widgets)
 
 enable_testing()
-add_test(NAME StreamTests COMMAND Lab3Tests)
+find_package(GTest REQUIRED)
+
+add_executable(Lab3Tests
+    tests/test_ArraySequence.cpp
+    tests/test_LinkedList.cpp
+    tests/test_ListSequence.cpp
+    tests/test_DynamicArray.cpp
+    tests/test_stream.cpp
+    ${CORE_SRC}         
+)
+
+target_include_directories(Lab3Tests PRIVATE
+    src
+    src/core
+    src/core/Array
+    src/core/List
+    src/exceptions
+)
+
+target_link_libraries(Lab3Tests PRIVATE GTest::gtest GTest::gtest_main)

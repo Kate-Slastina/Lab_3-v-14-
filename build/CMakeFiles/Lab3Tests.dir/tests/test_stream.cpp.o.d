@@ -854,17 +854,18 @@ CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o: \
   /opt/homebrew/include/gtest/gtest-typed-test.h \
   /opt/homebrew/include/gtest/gtest_pred_impl.h \
   /opt/homebrew/include/gtest/gtest_prod.h \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/Stream.hpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/Sequence.hpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/Stream.tpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Array/MutableArraySequence.hpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Array/ArraySequence.hpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Array/DynamicArray.hpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/Exceptions.hpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Array/DynamicArray.tpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Array/ArraySequence.tpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/List/LinkedList.hpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/List/LinkedList.tpp \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/Complex.h \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/Student.h \
-  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/Teacher.h
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Stream.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/MutableArraySequence.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/ArraySequence.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Sequence.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/ICollection.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Iterator.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/DynamicArray.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/exceptions/Exceptions.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/DynamicArray.tpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/ArraySequence.tpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/LinkedList.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/LinkedList.tpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Complex.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Student.hpp \
+  /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Teacher.hpp

@@ -72,10 +72,80 @@ include CMakeFiles/Lab3Tests.dir/flags.make
 CMakeFiles/Lab3Tests.dir/codegen:
 .PHONY : CMakeFiles/Lab3Tests.dir/codegen
 
+CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
+CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o: Lab3Tests_autogen/mocs_compilation.cpp
+CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/Lab3Tests_autogen/mocs_compilation.cpp
+
+CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/Lab3Tests_autogen/mocs_compilation.cpp > CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/Lab3Tests_autogen/mocs_compilation.cpp -o CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.s
+
+CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
+CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_ArraySequence.cpp
+CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o -MF CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o.d -o CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_ArraySequence.cpp
+
+CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_ArraySequence.cpp > CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.i
+
+CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_ArraySequence.cpp -o CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.s
+
+CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
+CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_LinkedList.cpp
+CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o -MF CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o.d -o CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_LinkedList.cpp
+
+CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_LinkedList.cpp > CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.i
+
+CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_LinkedList.cpp -o CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.s
+
+CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
+CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_ListSequence.cpp
+CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o -MF CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o.d -o CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_ListSequence.cpp
+
+CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_ListSequence.cpp > CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.i
+
+CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_ListSequence.cpp -o CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.s
+
+CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
+CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_DynamicArray.cpp
+CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o -MF CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o.d -o CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_DynamicArray.cpp
+
+CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_DynamicArray.cpp > CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.i
+
+CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_DynamicArray.cpp -o CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.s
+
 CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
 CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_stream.cpp
 CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o -MF CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o.d -o CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_stream.cpp
 
 CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.i: cmake_force
@@ -86,20 +156,94 @@ CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_stream.cpp -o CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.s
 
+CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
+CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/generators/RecurrentSequences.cpp
+CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o -MF CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o.d -o CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/generators/RecurrentSequences.cpp
+
+CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/generators/RecurrentSequences.cpp > CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.i
+
+CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/generators/RecurrentSequences.cpp -o CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.s
+
+CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
+CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Complex.cpp
+CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o -MF CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o.d -o CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Complex.cpp
+
+CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Complex.cpp > CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.i
+
+CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Complex.cpp -o CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.s
+
+CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
+CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Student.cpp
+CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o -MF CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o.d -o CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Student.cpp
+
+CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Student.cpp > CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.i
+
+CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Student.cpp -o CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.s
+
+CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o: CMakeFiles/Lab3Tests.dir/flags.make
+CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o: /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Teacher.cpp
+CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o: CMakeFiles/Lab3Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o -MF CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o.d -o CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Teacher.cpp
+
+CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Teacher.cpp > CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.i
+
+CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Teacher.cpp -o CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.s
+
 # Object files for target Lab3Tests
 Lab3Tests_OBJECTS = \
-"CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o"
+"CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o" \
+"CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o" \
+"CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o" \
+"CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o" \
+"CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o" \
+"CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o" \
+"CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o" \
+"CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o" \
+"CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o"
 
 # External object files for target Lab3Tests
 Lab3Tests_EXTERNAL_OBJECTS =
 
+Lab3Tests: CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o
+Lab3Tests: CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o
+Lab3Tests: CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o
+Lab3Tests: CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o
+Lab3Tests: CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o
 Lab3Tests: CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o
+Lab3Tests: CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o
+Lab3Tests: CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o
+Lab3Tests: CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o
+Lab3Tests: CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o
 Lab3Tests: CMakeFiles/Lab3Tests.dir/build.make
 Lab3Tests: /opt/homebrew/lib/libgtest.a
 Lab3Tests: /opt/homebrew/lib/libgtest_main.a
 Lab3Tests: /opt/homebrew/lib/libgtest.a
 Lab3Tests: CMakeFiles/Lab3Tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab3Tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Lab3Tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab3Tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

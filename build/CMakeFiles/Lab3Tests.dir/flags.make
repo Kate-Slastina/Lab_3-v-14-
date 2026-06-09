@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Array -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/List -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build/Lab3Tests_autogen/include -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Array -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/List -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/exceptions -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

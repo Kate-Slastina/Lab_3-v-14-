@@ -127,6 +127,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Lab3_GUI
+
+# Build rule for target.
+Lab3_GUI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lab3_GUI
+.PHONY : Lab3_GUI
+
+# fast build rule for target.
+Lab3_GUI/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/build
+.PHONY : Lab3_GUI/fast
+
+#=============================================================================
 # Target rules for targets named Lab3Tests
 
 # Build rule for target.
@@ -138,6 +151,430 @@ Lab3Tests: cmake_check_build_system
 Lab3Tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/build
 .PHONY : Lab3Tests/fast
+
+#=============================================================================
+# Target rules for targets named Lab3_GUI_autogen_timestamp_deps
+
+# Build rule for target.
+Lab3_GUI_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lab3_GUI_autogen_timestamp_deps
+.PHONY : Lab3_GUI_autogen_timestamp_deps
+
+# fast build rule for target.
+Lab3_GUI_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI_autogen_timestamp_deps.dir/build.make CMakeFiles/Lab3_GUI_autogen_timestamp_deps.dir/build
+.PHONY : Lab3_GUI_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named Lab3_GUI_autogen
+
+# Build rule for target.
+Lab3_GUI_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lab3_GUI_autogen
+.PHONY : Lab3_GUI_autogen
+
+# fast build rule for target.
+Lab3_GUI_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI_autogen.dir/build.make CMakeFiles/Lab3_GUI_autogen.dir/build
+.PHONY : Lab3_GUI_autogen/fast
+
+#=============================================================================
+# Target rules for targets named Lab3Tests_autogen_timestamp_deps
+
+# Build rule for target.
+Lab3Tests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lab3Tests_autogen_timestamp_deps
+.PHONY : Lab3Tests_autogen_timestamp_deps
+
+# fast build rule for target.
+Lab3Tests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests_autogen_timestamp_deps.dir/build.make CMakeFiles/Lab3Tests_autogen_timestamp_deps.dir/build
+.PHONY : Lab3Tests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named Lab3Tests_autogen
+
+# Build rule for target.
+Lab3Tests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lab3Tests_autogen
+.PHONY : Lab3Tests_autogen
+
+# fast build rule for target.
+Lab3Tests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests_autogen.dir/build.make CMakeFiles/Lab3Tests_autogen.dir/build
+.PHONY : Lab3Tests_autogen/fast
+
+Lab3Tests_autogen/mocs_compilation.o: Lab3Tests_autogen/mocs_compilation.cpp.o
+.PHONY : Lab3Tests_autogen/mocs_compilation.o
+
+# target to build an object file
+Lab3Tests_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.o
+.PHONY : Lab3Tests_autogen/mocs_compilation.cpp.o
+
+Lab3Tests_autogen/mocs_compilation.i: Lab3Tests_autogen/mocs_compilation.cpp.i
+.PHONY : Lab3Tests_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Lab3Tests_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.i
+.PHONY : Lab3Tests_autogen/mocs_compilation.cpp.i
+
+Lab3Tests_autogen/mocs_compilation.s: Lab3Tests_autogen/mocs_compilation.cpp.s
+.PHONY : Lab3Tests_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Lab3Tests_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/Lab3Tests_autogen/mocs_compilation.cpp.s
+.PHONY : Lab3Tests_autogen/mocs_compilation.cpp.s
+
+Lab3_GUI_autogen/mocs_compilation.o: Lab3_GUI_autogen/mocs_compilation.cpp.o
+.PHONY : Lab3_GUI_autogen/mocs_compilation.o
+
+# target to build an object file
+Lab3_GUI_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/Lab3_GUI_autogen/mocs_compilation.cpp.o
+.PHONY : Lab3_GUI_autogen/mocs_compilation.cpp.o
+
+Lab3_GUI_autogen/mocs_compilation.i: Lab3_GUI_autogen/mocs_compilation.cpp.i
+.PHONY : Lab3_GUI_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Lab3_GUI_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/Lab3_GUI_autogen/mocs_compilation.cpp.i
+.PHONY : Lab3_GUI_autogen/mocs_compilation.cpp.i
+
+Lab3_GUI_autogen/mocs_compilation.s: Lab3_GUI_autogen/mocs_compilation.cpp.s
+.PHONY : Lab3_GUI_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Lab3_GUI_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/Lab3_GUI_autogen/mocs_compilation.cpp.s
+.PHONY : Lab3_GUI_autogen/mocs_compilation.cpp.s
+
+gui/main.o: gui/main.cpp.o
+.PHONY : gui/main.o
+
+# target to build an object file
+gui/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/gui/main.cpp.o
+.PHONY : gui/main.cpp.o
+
+gui/main.i: gui/main.cpp.i
+.PHONY : gui/main.i
+
+# target to preprocess a source file
+gui/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/gui/main.cpp.i
+.PHONY : gui/main.cpp.i
+
+gui/main.s: gui/main.cpp.s
+.PHONY : gui/main.s
+
+# target to generate assembly for a file
+gui/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/gui/main.cpp.s
+.PHONY : gui/main.cpp.s
+
+gui/mainwindow.o: gui/mainwindow.cpp.o
+.PHONY : gui/mainwindow.o
+
+# target to build an object file
+gui/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/gui/mainwindow.cpp.o
+.PHONY : gui/mainwindow.cpp.o
+
+gui/mainwindow.i: gui/mainwindow.cpp.i
+.PHONY : gui/mainwindow.i
+
+# target to preprocess a source file
+gui/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/gui/mainwindow.cpp.i
+.PHONY : gui/mainwindow.cpp.i
+
+gui/mainwindow.s: gui/mainwindow.cpp.s
+.PHONY : gui/mainwindow.s
+
+# target to generate assembly for a file
+gui/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/gui/mainwindow.cpp.s
+.PHONY : gui/mainwindow.cpp.s
+
+src/core/Complex.o: src/core/Complex.cpp.o
+.PHONY : src/core/Complex.o
+
+# target to build an object file
+src/core/Complex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/core/Complex.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.o
+.PHONY : src/core/Complex.cpp.o
+
+src/core/Complex.i: src/core/Complex.cpp.i
+.PHONY : src/core/Complex.i
+
+# target to preprocess a source file
+src/core/Complex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/core/Complex.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.i
+.PHONY : src/core/Complex.cpp.i
+
+src/core/Complex.s: src/core/Complex.cpp.s
+.PHONY : src/core/Complex.s
+
+# target to generate assembly for a file
+src/core/Complex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/core/Complex.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/core/Complex.cpp.s
+.PHONY : src/core/Complex.cpp.s
+
+src/core/Student.o: src/core/Student.cpp.o
+.PHONY : src/core/Student.o
+
+# target to build an object file
+src/core/Student.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/core/Student.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.o
+.PHONY : src/core/Student.cpp.o
+
+src/core/Student.i: src/core/Student.cpp.i
+.PHONY : src/core/Student.i
+
+# target to preprocess a source file
+src/core/Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/core/Student.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.i
+.PHONY : src/core/Student.cpp.i
+
+src/core/Student.s: src/core/Student.cpp.s
+.PHONY : src/core/Student.s
+
+# target to generate assembly for a file
+src/core/Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/core/Student.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/core/Student.cpp.s
+.PHONY : src/core/Student.cpp.s
+
+src/core/Teacher.o: src/core/Teacher.cpp.o
+.PHONY : src/core/Teacher.o
+
+# target to build an object file
+src/core/Teacher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/core/Teacher.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.o
+.PHONY : src/core/Teacher.cpp.o
+
+src/core/Teacher.i: src/core/Teacher.cpp.i
+.PHONY : src/core/Teacher.i
+
+# target to preprocess a source file
+src/core/Teacher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/core/Teacher.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.i
+.PHONY : src/core/Teacher.cpp.i
+
+src/core/Teacher.s: src/core/Teacher.cpp.s
+.PHONY : src/core/Teacher.s
+
+# target to generate assembly for a file
+src/core/Teacher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/core/Teacher.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/core/Teacher.cpp.s
+.PHONY : src/core/Teacher.cpp.s
+
+src/elements/Number.o: src/elements/Number.cpp.o
+.PHONY : src/elements/Number.o
+
+# target to build an object file
+src/elements/Number.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/elements/Number.cpp.o
+.PHONY : src/elements/Number.cpp.o
+
+src/elements/Number.i: src/elements/Number.cpp.i
+.PHONY : src/elements/Number.i
+
+# target to preprocess a source file
+src/elements/Number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/elements/Number.cpp.i
+.PHONY : src/elements/Number.cpp.i
+
+src/elements/Number.s: src/elements/Number.cpp.s
+.PHONY : src/elements/Number.s
+
+# target to generate assembly for a file
+src/elements/Number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/elements/Number.cpp.s
+.PHONY : src/elements/Number.cpp.s
+
+src/elements/StudentElement.o: src/elements/StudentElement.cpp.o
+.PHONY : src/elements/StudentElement.o
+
+# target to build an object file
+src/elements/StudentElement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/elements/StudentElement.cpp.o
+.PHONY : src/elements/StudentElement.cpp.o
+
+src/elements/StudentElement.i: src/elements/StudentElement.cpp.i
+.PHONY : src/elements/StudentElement.i
+
+# target to preprocess a source file
+src/elements/StudentElement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/elements/StudentElement.cpp.i
+.PHONY : src/elements/StudentElement.cpp.i
+
+src/elements/StudentElement.s: src/elements/StudentElement.cpp.s
+.PHONY : src/elements/StudentElement.s
+
+# target to generate assembly for a file
+src/elements/StudentElement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/elements/StudentElement.cpp.s
+.PHONY : src/elements/StudentElement.cpp.s
+
+src/elements/TeacherElement.o: src/elements/TeacherElement.cpp.o
+.PHONY : src/elements/TeacherElement.o
+
+# target to build an object file
+src/elements/TeacherElement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/elements/TeacherElement.cpp.o
+.PHONY : src/elements/TeacherElement.cpp.o
+
+src/elements/TeacherElement.i: src/elements/TeacherElement.cpp.i
+.PHONY : src/elements/TeacherElement.i
+
+# target to preprocess a source file
+src/elements/TeacherElement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/elements/TeacherElement.cpp.i
+.PHONY : src/elements/TeacherElement.cpp.i
+
+src/elements/TeacherElement.s: src/elements/TeacherElement.cpp.s
+.PHONY : src/elements/TeacherElement.s
+
+# target to generate assembly for a file
+src/elements/TeacherElement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/elements/TeacherElement.cpp.s
+.PHONY : src/elements/TeacherElement.cpp.s
+
+src/generators/RecurrentSequences.o: src/generators/RecurrentSequences.cpp.o
+.PHONY : src/generators/RecurrentSequences.o
+
+# target to build an object file
+src/generators/RecurrentSequences.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/generators/RecurrentSequences.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.o
+.PHONY : src/generators/RecurrentSequences.cpp.o
+
+src/generators/RecurrentSequences.i: src/generators/RecurrentSequences.cpp.i
+.PHONY : src/generators/RecurrentSequences.i
+
+# target to preprocess a source file
+src/generators/RecurrentSequences.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/generators/RecurrentSequences.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.i
+.PHONY : src/generators/RecurrentSequences.cpp.i
+
+src/generators/RecurrentSequences.s: src/generators/RecurrentSequences.cpp.s
+.PHONY : src/generators/RecurrentSequences.s
+
+# target to generate assembly for a file
+src/generators/RecurrentSequences.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3_GUI.dir/build.make CMakeFiles/Lab3_GUI.dir/src/generators/RecurrentSequences.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/src/generators/RecurrentSequences.cpp.s
+.PHONY : src/generators/RecurrentSequences.cpp.s
+
+tests/test_ArraySequence.o: tests/test_ArraySequence.cpp.o
+.PHONY : tests/test_ArraySequence.o
+
+# target to build an object file
+tests/test_ArraySequence.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.o
+.PHONY : tests/test_ArraySequence.cpp.o
+
+tests/test_ArraySequence.i: tests/test_ArraySequence.cpp.i
+.PHONY : tests/test_ArraySequence.i
+
+# target to preprocess a source file
+tests/test_ArraySequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.i
+.PHONY : tests/test_ArraySequence.cpp.i
+
+tests/test_ArraySequence.s: tests/test_ArraySequence.cpp.s
+.PHONY : tests/test_ArraySequence.s
+
+# target to generate assembly for a file
+tests/test_ArraySequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_ArraySequence.cpp.s
+.PHONY : tests/test_ArraySequence.cpp.s
+
+tests/test_DynamicArray.o: tests/test_DynamicArray.cpp.o
+.PHONY : tests/test_DynamicArray.o
+
+# target to build an object file
+tests/test_DynamicArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.o
+.PHONY : tests/test_DynamicArray.cpp.o
+
+tests/test_DynamicArray.i: tests/test_DynamicArray.cpp.i
+.PHONY : tests/test_DynamicArray.i
+
+# target to preprocess a source file
+tests/test_DynamicArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.i
+.PHONY : tests/test_DynamicArray.cpp.i
+
+tests/test_DynamicArray.s: tests/test_DynamicArray.cpp.s
+.PHONY : tests/test_DynamicArray.s
+
+# target to generate assembly for a file
+tests/test_DynamicArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_DynamicArray.cpp.s
+.PHONY : tests/test_DynamicArray.cpp.s
+
+tests/test_LinkedList.o: tests/test_LinkedList.cpp.o
+.PHONY : tests/test_LinkedList.o
+
+# target to build an object file
+tests/test_LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.o
+.PHONY : tests/test_LinkedList.cpp.o
+
+tests/test_LinkedList.i: tests/test_LinkedList.cpp.i
+.PHONY : tests/test_LinkedList.i
+
+# target to preprocess a source file
+tests/test_LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.i
+.PHONY : tests/test_LinkedList.cpp.i
+
+tests/test_LinkedList.s: tests/test_LinkedList.cpp.s
+.PHONY : tests/test_LinkedList.s
+
+# target to generate assembly for a file
+tests/test_LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_LinkedList.cpp.s
+.PHONY : tests/test_LinkedList.cpp.s
+
+tests/test_ListSequence.o: tests/test_ListSequence.cpp.o
+.PHONY : tests/test_ListSequence.o
+
+# target to build an object file
+tests/test_ListSequence.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.o
+.PHONY : tests/test_ListSequence.cpp.o
+
+tests/test_ListSequence.i: tests/test_ListSequence.cpp.i
+.PHONY : tests/test_ListSequence.i
+
+# target to preprocess a source file
+tests/test_ListSequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.i
+.PHONY : tests/test_ListSequence.cpp.i
+
+tests/test_ListSequence.s: tests/test_ListSequence.cpp.s
+.PHONY : tests/test_ListSequence.s
+
+# target to generate assembly for a file
+tests/test_ListSequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3Tests.dir/build.make CMakeFiles/Lab3Tests.dir/tests/test_ListSequence.cpp.s
+.PHONY : tests/test_ListSequence.cpp.s
 
 tests/test_stream.o: tests/test_stream.cpp.o
 .PHONY : tests/test_stream.o
@@ -172,7 +609,57 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... Lab3Tests_autogen"
+	@echo "... Lab3Tests_autogen_timestamp_deps"
+	@echo "... Lab3_GUI_autogen"
+	@echo "... Lab3_GUI_autogen_timestamp_deps"
 	@echo "... Lab3Tests"
+	@echo "... Lab3_GUI"
+	@echo "... Lab3Tests_autogen/mocs_compilation.o"
+	@echo "... Lab3Tests_autogen/mocs_compilation.i"
+	@echo "... Lab3Tests_autogen/mocs_compilation.s"
+	@echo "... Lab3_GUI_autogen/mocs_compilation.o"
+	@echo "... Lab3_GUI_autogen/mocs_compilation.i"
+	@echo "... Lab3_GUI_autogen/mocs_compilation.s"
+	@echo "... gui/main.o"
+	@echo "... gui/main.i"
+	@echo "... gui/main.s"
+	@echo "... gui/mainwindow.o"
+	@echo "... gui/mainwindow.i"
+	@echo "... gui/mainwindow.s"
+	@echo "... src/core/Complex.o"
+	@echo "... src/core/Complex.i"
+	@echo "... src/core/Complex.s"
+	@echo "... src/core/Student.o"
+	@echo "... src/core/Student.i"
+	@echo "... src/core/Student.s"
+	@echo "... src/core/Teacher.o"
+	@echo "... src/core/Teacher.i"
+	@echo "... src/core/Teacher.s"
+	@echo "... src/elements/Number.o"
+	@echo "... src/elements/Number.i"
+	@echo "... src/elements/Number.s"
+	@echo "... src/elements/StudentElement.o"
+	@echo "... src/elements/StudentElement.i"
+	@echo "... src/elements/StudentElement.s"
+	@echo "... src/elements/TeacherElement.o"
+	@echo "... src/elements/TeacherElement.i"
+	@echo "... src/elements/TeacherElement.s"
+	@echo "... src/generators/RecurrentSequences.o"
+	@echo "... src/generators/RecurrentSequences.i"
+	@echo "... src/generators/RecurrentSequences.s"
+	@echo "... tests/test_ArraySequence.o"
+	@echo "... tests/test_ArraySequence.i"
+	@echo "... tests/test_ArraySequence.s"
+	@echo "... tests/test_DynamicArray.o"
+	@echo "... tests/test_DynamicArray.i"
+	@echo "... tests/test_DynamicArray.s"
+	@echo "... tests/test_LinkedList.o"
+	@echo "... tests/test_LinkedList.i"
+	@echo "... tests/test_LinkedList.s"
+	@echo "... tests/test_ListSequence.o"
+	@echo "... tests/test_ListSequence.i"
+	@echo "... tests/test_ListSequence.s"
 	@echo "... tests/test_stream.o"
 	@echo "... tests/test_stream.i"
 	@echo "... tests/test_stream.s"

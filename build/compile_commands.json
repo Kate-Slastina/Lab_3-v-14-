@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/build",
-  "command": "/usr/bin/c++  -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/Array -I/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/src/core/List -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o -c /Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_stream.cpp",
-  "file": "/Users/slastina_ea_2006/Desktop/2-semester-main/Lab_3/tests/test_stream.cpp",
-  "output": "CMakeFiles/Lab3Tests.dir/tests/test_stream.cpp.o"
-}
-]
