@@ -49,16 +49,30 @@ target_link_libraries(Lab3_GUI PRIVATE Qt::Core Qt::Widgets)
 enable_testing()
 find_package(GTest REQUIRED)
 
-add_executable(Lab3Tests
+add_executable(Lab3TestsArray
     tests/test_ArraySequence.cpp
+    ${CORE_SRC}         
+)
+add_executable(Lab3TestsLinkedList
     tests/test_LinkedList.cpp
+    ${CORE_SRC}         
+)
+add_executable(Lab3TestsListSeq
     tests/test_ListSequence.cpp
+    ${CORE_SRC}         
+)
+
+add_executable(Lab3TestsDynArray
     tests/test_DynamicArray.cpp
+    ${CORE_SRC}         
+)
+
+add_executable(Lab3TestsStream
     tests/test_stream.cpp
     ${CORE_SRC}         
 )
 
-target_include_directories(Lab3Tests PRIVATE
+target_include_directories(Lab3TestsArray PRIVATE
     src
     src/core
     src/core/Array
@@ -66,4 +80,46 @@ target_include_directories(Lab3Tests PRIVATE
     src/exceptions
 )
 
-target_link_libraries(Lab3Tests PRIVATE GTest::gtest GTest::gtest_main)
+target_include_directories(Lab3TestsLinkedList PRIVATE
+    src
+    src/core
+    src/core/Array
+    src/core/List
+    src/exceptions
+)
+
+target_include_directories(Lab3TestsListSeq PRIVATE
+    src
+    src/core
+    src/core/Array
+    src/core/List
+    src/exceptions
+)
+
+target_include_directories(Lab3TestsDynArray PRIVATE
+    src
+    src/core
+    src/core/Array
+    src/core/List
+    src/exceptions
+)
+
+target_include_directories(Lab3TestsStream PRIVATE
+    src
+    src/core
+    src/core/Array
+    src/core/List
+    src/exceptions
+)
+
+target_link_libraries(Lab3TestsArray PRIVATE GTest::gtest_main)
+target_link_libraries(Lab3TestsLinkedList PRIVATE GTest::gtest_main)
+target_link_libraries(Lab3TestsListSeq PRIVATE GTest::gtest_main)
+target_link_libraries(Lab3TestsDynArray PRIVATE GTest::gtest_main)
+target_link_libraries(Lab3TestsStream PRIVATE GTest::gtest_main)
+
+add_test(NAME Lab3TestsArray COMMAND Lab3TestsArray)
+add_test(NAME Lab3TestsLinkedList COMMAND Lab3TestsLinkedList)
+add_test(NAME Lab3TestsListSeq COMMAND Lab3TestsListSeq)
+add_test(NAME Lab3TestsDynArray COMMAND Lab3TestsDynArray)
+add_test(NAME Lab3TestsStream COMMAND Lab3TestsStream)

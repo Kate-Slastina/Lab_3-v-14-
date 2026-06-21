@@ -9,21 +9,19 @@
 #include <sstream>
 #include <algorithm>
 
-// ------------------ Конструктор и деструктор ------------------
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
 
-    // Настройка валидаторов для ввода чисел
     QRegularExpressionValidator *intValidator = new QRegularExpressionValidator(QRegularExpression("^-?\\d*$"), this);
     QRegularExpressionValidator *realValidator = new QRegularExpressionValidator(QRegularExpression("^-?\\d*\\.?\\d*$"), this);
     QRegularExpressionValidator *complexValidator = new QRegularExpressionValidator(
         QRegularExpression("^[\\d\\+\\-\\s\\.iI]*$"), this);
     ui->dataTextEdit->setValidator(complexValidator);
 
-    // Настройка таблиц
     ui->tableWidget->setColumnCount(2);
     ui->tableWidget->setHorizontalHeaderLabels({"Число", "Тип числа"});
     ui->tableWidget_2->setColumnCount(2);
@@ -33,18 +31,15 @@ MainWindow::MainWindow(QWidget *parent)
     ui->tableWidget_6->setColumnCount(2);
     ui->tableWidget_6->setHorizontalHeaderLabels({"ФИО студента", "Средний балл"});
 
-    // Растягиваем столбцы
     for (auto table : {ui->tableWidget, ui->tableWidget_2, ui->tableWidget_3, ui->tableWidget_6}) {
         table->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
     }
 
-    // Заполнение комбобокса выбора таблицы
     ui->comboBox_tableSelector->addItem("Числа");
     ui->comboBox_tableSelector->addItem("Студенты (1)");
     ui->comboBox_tableSelector->addItem("Студенты (2)");
     ui->comboBox_tableSelector->addItem("Преподаватели");
 
-    // Начальные данные
     numbers = numbers + Complex(10,0) + Complex(3.14,0) + Complex(2,3);
     refreshNumbersTable();
 
@@ -68,7 +63,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-// ------------------ Вспомогательные методы ------------------
 void MainWindow::refreshNumbersTable()
 {
     ui->tableWidget->setRowCount(0);
@@ -218,7 +212,6 @@ Stream<long long> MainWindow::extractLongLongStream()
     return Stream<long long>(std::move(seq));
 }
 
-// ------------------ Слоты для чисел ------------------
 void MainWindow::on_pushButton_mapNumbers_clicked()
 {
     numbers = numbers.Map<Complex>([](Complex c) { return Complex(c.re * 2, c.im * 2); });
@@ -334,7 +327,6 @@ void MainWindow::on_pushButton_highlightNumbers_clicked()
     QMessageBox::information(this, "Подсветка", "Цвета строк обновлены");
 }
 
-// ------------------ Слоты для студентов (таблица 2) ------------------
 void MainWindow::on_pushButton_mapStudents2_clicked()
 {
     students2 = students2.Map<Student>([](Student s) {
@@ -397,7 +389,7 @@ void MainWindow::on_pushButton_extractStudents2_clicked()
     QMessageBox::information(this, "Извлечение", "Оставлены только выделенные строки");
 }
 
-// ------------------ Слоты для студентов (таблица 6) ------------------
+
 void MainWindow::on_pushButton_mapStudents6_clicked()
 {
     students6 = students6.Map<Student>([](Student s) {
@@ -460,7 +452,6 @@ void MainWindow::on_pushButton_extractStudents6_clicked()
     QMessageBox::information(this, "Извлечение", "Оставлены только выделенные строки");
 }
 
-// ------------------ Слоты для преподавателей ------------------
 void MainWindow::on_pushButton_mapTeachers_clicked()
 {
     teachers = teachers.Map<Teacher>([](Teacher t) {
@@ -520,7 +511,6 @@ void MainWindow::on_pushButton_extractTeachers_clicked()
     QMessageBox::information(this, "Извлечение", "Оставлены только выделенные строки");
 }
 
-// ------------------ Слияние и сравнение ------------------
 void MainWindow::on_pushButton_mergeStudents_clicked()
 {
     students2 = students2.Merge(students6);
@@ -556,7 +546,7 @@ void MainWindow::on_pushButton_compare_clicked()
     else ui->listWidget_info->insertItem(0, "Таблицы не равны");
 }
 
-// ------------------ Доступ по индексу ------------------
+
 void MainWindow::on_pushButton_getIndex_clicked()
 {
     QTableWidget* table = getCurrentTable();
@@ -573,7 +563,6 @@ void MainWindow::on_pushButton_getIndex_clicked()
     ui->listWidget_info->addItem(QString("Индекс %1: %2").arg(idx).arg(value));
 }
 
-// ------------------ Смена текущей таблицы ------------------
 void MainWindow::on_comboBox_tableSelector_currentIndexChanged(int index)
 {
     Q_UNUSED(index);
